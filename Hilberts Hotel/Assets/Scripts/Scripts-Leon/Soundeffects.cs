@@ -5,22 +5,20 @@ using UnityEngine;
 public class Soundeffects : MonoBehaviour
 {
 
+    //public AudioClip test;
     public AudioClip test;
-    AudioSource audioSource;
-
+ 
 
     // Start is called before the first frame updat
     void Start()
     {
-        
+        AudioSource.PlayClipAtPoint(test, new Vector3(0, 0, 0));
     }
 
     // Update is called once per frame
     void Update()
     {
-     if (Input.GetKey(KeyCode.W))
-        {
-            audioSource.PlayClipAtPoint
-        }
+        
     }
+    
 }

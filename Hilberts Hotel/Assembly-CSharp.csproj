@@ -73,10 +73,6 @@
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
-    <Compile Include="Assets\Frejatest-prylar\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\Frejatest-prylar\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\Frejatest-prylar\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Frejatest-prylar\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
@@ -155,6 +151,10 @@
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\Scenes\Sonny\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Scenes\Sonny\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\Scenes\Sonny\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scenes\Sonny\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -183,26 +183,26 @@
     <None Include="Assets\Frejatest-prylar\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Cameras\CameraGuidelines.txt" />
-    <None Include="Assets\Frejatest-prylar\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Scenes\Sonny\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -408,20 +408,20 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/frejastemme/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/This-Is-Sonny/Documents/GitHub/HilbertsHotel/Hilberts Hotel/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

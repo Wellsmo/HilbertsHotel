@@ -1,0 +1,43 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Soundeffects2 : MonoBehaviour
+{
+
+    //public AudioClip test;
+    public AudioClip SoundFX;
+ 
+
+    // Start is called before the first frame updat
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    void OnTriggerEnter(Collider test)
+    {
+
+        if (gameObject.CompareTag("Ambient"))
+        {
+            AudioSource.PlayClipAtPoint(SoundFX, new Vector3(0, 0, 0));
+            print("play test");
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+
+        if (gameObject.CompareTag("Phonezone") && Input.GetKeyDown(KeyCode.E)) 
+        {
+            AudioSource.PlayClipAtPoint(SoundFX, new Vector3(0, 0, 0));
+            print("play test");
+        }
+    }
+}

@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{F8F6130C-3635-22CF-289E-E590BB3E22ED}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts-Leon/Soundeffects2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts-W/PlayerController.cs">
     <Files>
       <File FileName="Assets/Scripts/Scripts-Leon/Soundeffects2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Scripts-W/firstPersonRaycast.cs" Line="3" Column="34" />
+      <File FileName="Assets/Scripts/Scripts-W/PlayerController.cs" Line="26" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

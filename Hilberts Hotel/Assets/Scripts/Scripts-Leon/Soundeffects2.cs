@@ -7,6 +7,7 @@ public class Soundeffects2 : MonoBehaviour
 
     //public AudioClip test;
     public AudioClip SoundFX;
+    public AudioClip BackgroundSound;
  
 
     // Start is called before the first frame updat

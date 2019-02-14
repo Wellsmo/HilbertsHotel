@@ -8,6 +8,7 @@ public class Soundeffects2 : MonoBehaviour
     //public AudioClip test;
     public AudioClip SoundFX;
     public AudioClip BackgroundSound;
+    public bool Ringer = true;
  
 
     // Start is called before the first frame updat
@@ -19,7 +20,10 @@ public class Soundeffects2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Ringer == true)
+        {
+            AudioSource.PlayClipAtPoint(BackgroundSound, new Vector3(0, 0, 0));
+        }
     }
 
     void OnTriggerEnter(Collider test)
@@ -35,10 +39,15 @@ public class Soundeffects2 : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
 
-        if (gameObject.CompareTag("Phonezone") && Input.GetKeyDown(KeyCode.E)) 
+        if (gameObject.CompareTag("Phonezone") && (Ringer = true) && Input.GetKeyDown(KeyCode.E)) 
         {
             AudioSource.PlayClipAtPoint(SoundFX, new Vector3(0, 0, 0));
             print("play test");
         }
+
+        /*if (Ringer = true)
+        {
+
+        }*/
     }
 }

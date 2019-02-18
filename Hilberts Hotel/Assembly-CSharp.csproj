@@ -157,6 +157,7 @@
     <Compile Include="Assets\Frejatest-prylar\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
     <Compile Include="Assets\Scripts\Scripts-Leon\MoveObject.cs" />
     <Compile Include="Assets\Scripts\Scripts-Leon\Soundeffects2.cs" />
+    <Compile Include="Assets\Scripts\Scripts-Leon\SwitchScript.cs" />
     <Compile Include="Assets\Scripts\Scripts-W\firstPersonRaycast.cs" />
     <Compile Include="Assets\Scripts\Scripts-W\PlayerController.cs" />
     <None Include="Assets\Frejatest-prylar\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />

@@ -22,7 +22,7 @@ public class Soundeffects2 : MonoBehaviour
     {
         if (Ringer == true)
         {
-            AudioSource.PlayClipAtPoint(BackgroundSound, new Vector3(0, 0, 0));
+            //AudioSource.PlayClipAtPoint(BackgroundSound, new Vector3(0, 0, 0));
         }
     }
 

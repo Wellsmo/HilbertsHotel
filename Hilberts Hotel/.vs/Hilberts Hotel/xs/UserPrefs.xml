@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{F8F6130C-3635-22CF-289E-E590BB3E22ED}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts-Leon/MoveObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts-Leon/InputField.cs">
     <Files>
-      <File FileName="Assets/Scripts/Scripts-Leon/Soundeffects2.cs" Line="10" Column="38" />
-      <File FileName="Assets/Scripts/Scripts-Leon/MoveObject.cs" Line="55" Column="25" />
+      <File FileName="Assets/Scripts/Scripts-Leon/Soundeffects2.cs" Line="25" Column="15" />
+      <File FileName="Assets/Scripts/Scripts-Leon/MoveObject.cs" Line="45" Column="64" />
+      <File FileName="Assets/Scripts/Scripts-Leon/SwitchScript.cs" Line="13" Column="11" />
+      <File FileName="Assets/Scripts/Scripts-Leon/InputField.cs" Line="24" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -10,7 +10,7 @@ public class SwitchScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //cOnTriggerEnter();  
+        //OnTriggerEnter();  
     }
 
     // Update is called once per frame

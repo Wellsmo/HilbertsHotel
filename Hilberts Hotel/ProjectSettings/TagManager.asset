@@ -7,6 +7,7 @@ TagManager:
   - Ambient
   - Phonezone
   - light
+  - Keyhole
   layers:
   - Default
   - TransparentFX

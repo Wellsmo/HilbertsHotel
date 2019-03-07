@@ -17,15 +17,21 @@ public class MoveObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isHolding == true)
+        distance = Vector3.Distance(item.transform.position, tempParent.transform.position);
+        if(distance >= 1f)
+        {
+            isHolding = false;
+        }
+        if (isHolding == true)
         {
             item.GetComponent<Rigidbody>().velocity = Vector3.zero;
             item.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             item.transform.SetParent(tempParent.transform);
 
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetKey(KeyCode.Q))
             {
-                //throw
+                item.GetComponent<Rigidbody>().AddForce(tempParent.transform.forward * throwForce);
+                isHolding = false;
             }
         }
 
@@ -40,9 +46,12 @@ public class MoveObject : MonoBehaviour
 
     void OnMouseDown()
     {
-        isHolding = true;
-        item.GetComponent<Rigidbody>().useGravity = false;
-        item.GetComponent<Rigidbody>().detectCollisions = true;
+        if (distance <= 1f)
+        {
+            isHolding = true;
+            item.GetComponent<Rigidbody>().useGravity = false;
+            item.GetComponent<Rigidbody>().detectCollisions = true;
+        }
     }
 
     void OnMouseUp()

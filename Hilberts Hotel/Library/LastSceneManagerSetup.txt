@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/W/Scenes/Puzzle_function_W03.unity
+- path: Assets/Scenes/Leon/Playgrgound-Test.unity
   isLoaded: 1
   isActive: 1

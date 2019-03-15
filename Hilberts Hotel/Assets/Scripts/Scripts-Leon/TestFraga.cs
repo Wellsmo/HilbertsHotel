@@ -41,9 +41,7 @@ public class TestFraga : MonoBehaviour
         {
             if (Input.GetKeyDown("return") && Textfält.text == "Open")
             {
-                print("Opendoor");
-
-                door.gameObject.SetActive(false);
+               door.gameObject.SetActive(false);
                 //SetActiveAllChildren(child, false);
                 Svar.text = "Sweet";
 

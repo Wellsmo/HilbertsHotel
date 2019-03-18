@@ -26,24 +26,37 @@ public class TestFraga : MonoBehaviour
             {
                 SetActiveAllChildren(Transform transform, bool value);
                 Svar.text = "Sweet";
+                              
 
             }
         }*/
+        SetActiveAllChildren();
     }
 
-    private void SetActiveAllChildren(Transform transform, bool value)
+
+    //Gör så att childobjecten stängs av
+    private void SetActiveAllChildren()
     {
-        foreach (Transform pizza in transform)
+        foreach (Transform child in this.transform)
         {
-            if (Input.GetKeyDown("return"))
+            if (Input.GetKeyDown("return") && Textfält.text == "Open")
             {
-                if (Textfält.text == "Öppna")
+               door.gameObject.SetActive(false);
+                //SetActiveAllChildren(child, false);
+                Svar.text = "Sweet";
+
+                if (Textfält.text == "Open")
                 {
-                    pizza.gameObject.SetActive(false);
-                    SetActiveAllChildren(pizza, false);
-                    Svar.text = "Sweet";
+
+                    /*
+
+                    */
+                                      
                 }
+
+
             }
+
         }
     }
 

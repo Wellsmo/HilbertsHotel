@@ -17,22 +17,24 @@ public class MoveObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distance = Vector3.Distance(item.transform.position, tempParent.transform.position);
+        /*distance = Vector3.Distance(item.transform.position, tempParent.transform.position);
         if(distance >= 1f)
         {
             isHolding = false;
-        }
+        }*/
         if (isHolding == true)
         {
+            //Stops object from moving while picked up
             item.GetComponent<Rigidbody>().velocity = Vector3.zero;
             item.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            //Parents the object to guide
             item.transform.SetParent(tempParent.transform);
-
-            if (Input.GetKey(KeyCode.Q))
+             
+            /*if (Input.GetKey(KeyCode.Q))
             {
                 item.GetComponent<Rigidbody>().AddForce(tempParent.transform.forward * throwForce);
                 isHolding = false;
-            }
+            }*/
         }
 
         else

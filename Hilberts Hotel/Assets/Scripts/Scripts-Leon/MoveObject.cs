@@ -18,7 +18,7 @@ public class MoveObject : MonoBehaviour
     void Update()
     {
         /*distance = Vector3.Distance(item.transform.position, tempParent.transform.position);
-        if(distance >= 1f)
+        if (distance >= 1f)
         {
             isHolding = false;
         }*/
@@ -29,12 +29,12 @@ public class MoveObject : MonoBehaviour
             item.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             //Parents the object to guide
             item.transform.SetParent(tempParent.transform);
-             
-            /*if (Input.GetKey(KeyCode.Q))
+
+            if (Input.GetKey(KeyCode.Q))
             {
                 item.GetComponent<Rigidbody>().AddForce(tempParent.transform.forward * throwForce);
                 isHolding = false;
-            }*/
+            }
         }
 
         else
@@ -48,7 +48,7 @@ public class MoveObject : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (distance <= 1f)
+        //if (distance <= 1f)
         {
             isHolding = true;
             item.GetComponent<Rigidbody>().useGravity = false;
@@ -60,11 +60,4 @@ public class MoveObject : MonoBehaviour
     {
         isHolding = false;
     }
-    /*void ItemFollow ()
-    {
-        if (item.GetComponent<Rigidbody>().isKinematic = true)
-        {
-            item.transform.position = guide.transform.position;
-            item.transform.rotation = guide.transform.rotation;
-        }*/
 }

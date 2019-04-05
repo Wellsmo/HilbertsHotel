@@ -48,7 +48,7 @@ public class MoveObject : MonoBehaviour
 
     void OnMouseDown()
     {
-        //if (distance <= 1f)
+        if (distance <= 1f)
         {
             isHolding = true;
             item.GetComponent<Rigidbody>().useGravity = false;

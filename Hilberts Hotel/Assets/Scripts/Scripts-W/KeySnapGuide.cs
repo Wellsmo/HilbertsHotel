@@ -5,16 +5,18 @@ using UnityEngine;
 public class KeySnapGuide : MonoBehaviour
 {
 
-    Vector3 keysnapPos;
+    //Vector3 keysnapPos;
+
+    public Transform keysnapPos;
 
     public GameObject tempParent;
-    public GameObject key;
+    public Transform key;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        key = GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -31,7 +33,7 @@ public class KeySnapGuide : MonoBehaviour
             key.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             key.transform.SetParent(tempParent.transform);
 
-            key.transform.position = keysnapPos;
+            key.transform.position = keysnapPos.transform.position;
         }
     }
 }

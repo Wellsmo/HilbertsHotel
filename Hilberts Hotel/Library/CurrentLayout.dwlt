@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 498}
   m_MaxSize: {x: 16012, y: 14048}
   vertical: 0
-  controlID: 4624
+  controlID: 287
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 498}
   m_MaxSize: {x: 12010, y: 14048}
   vertical: 1
-  controlID: 4625
+  controlID: 288
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 224}
   m_MaxSize: {x: 12010, y: 4024}
   vertical: 0
-  controlID: 4626
+  controlID: 289
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -407,9 +407,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 74cbffff
-      m_LastClickedID: -13452
-      m_ExpandedIDs: 46cbffff8acbffff06cdffffdeceffffb2e6ffffd4fbffff7017000076170000fc4300004a440000
+      m_SelectedIDs: be170000
+      m_LastClickedID: 6078
+      m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -499,9 +499,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.0011901412, y: 0.02609549, z: 0.00003225958, w: -0.9996588}
   m_Size:
-    m_Target: 59.304585
+    m_Target: 6.1670914
     speed: 2
-    m_Value: 59.304585
+    m_Value: 6.1670914
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -577,19 +577,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Leon
+    - Assets/Frejatest-prylar
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Leon
+  - Assets/Frejatest-prylar
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/leonsvensson/Documents/GitHub/HilbertsHotel/Hilberts Hotel
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 29}
-    m_SelectedIDs: 3e100000
-    m_LastClickedID: 4158
+    m_SelectedIDs: c4150000
+    m_LastClickedID: 5572
     m_ExpandedIDs: 000000001a0b0000820b0000280c0000b80c0000220f0000340f00003e10000070100000d4110000b21200008a1400009a15000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000060110000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

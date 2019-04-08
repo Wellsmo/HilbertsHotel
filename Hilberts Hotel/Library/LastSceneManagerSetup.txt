@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Leon/Playgrgound-Test.unity
+- path: Assets/Scenes/hugo/Prototype/KorridorandRooms.unity
   isLoaded: 1
   isActive: 1

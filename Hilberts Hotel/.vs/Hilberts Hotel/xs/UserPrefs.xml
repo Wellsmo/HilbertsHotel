@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts-Leon/MoveObject.cs">
     <Files>
       <File FileName="Assets/Scripts/Scripts-Leon/Soundeffects2.cs" Line="25" Column="15" />
-      <File FileName="Assets/Scripts/Scripts-Leon/MoveObject.cs" Line="26" Column="15" />
+      <File FileName="Assets/Scripts/Scripts-Leon/MoveObject.cs" Line="26" Column="10" />
       <File FileName="Assets/Scripts/Scripts-Leon/SwitchScript.cs" Line="26" Column="16" />
-      <File FileName="Assets/Scripts/Scripts-Leon/TestFraga.cs" Line="44" Column="1" />
+      <File FileName="Assets/Scripts/Scripts-Leon/TestFraga.cs" Line="25" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -20,12 +20,12 @@ public class TestFraga : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetActiveAllChildren();
+        Textfield();
     }
 
 
     //Gör så att gameobject "door" stängs av
-    private void SetActiveAllChildren()
+    private void Textfield()
     {
         //foreach (Transform child in this.transform)
         //{
